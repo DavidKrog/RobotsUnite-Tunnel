@@ -1,5 +1,5 @@
 # RobotsUnite-Tunnel
-## -	Hardware (Aufbau der Holzbox):
+## Hardware (Aufbau der Holzbox):
 1.	Maße der verschiedenen Bauelemente
    Für den Bau der Holzkiste haben wir mit 10 Bauteile gerechnet, damit die Kiste stabil ist, allen Anforderungen entspricht und die erwünschten Funktionsweisen umgesetzt werden können.
 
@@ -84,3 +84,137 @@ Die Spannungswandler werden in einer 3D gedruckten Box fest verbaut. Die zwei Sp
 Die sechs verbauten Klemmbausteine wurden auch auf einer Hutschiene angebracht. Die Klemmbausteine sind für die Masse der LOGO und den einzelnen Relais, den Masse für die Leuchtdrucktaster, die Spannungsversorgung der Leuchtdrucktaster, Spannungsversorgung von der LOGO zu den Relais, Ausgang aller Taster, Endlagentaster und Schaltern und für den Eingang über das Netzteil und weitergehende Leitungen um das Gesamt System zu versorgen.
 
 Die Taster um die verschiedenen Modi und Quizes auswählen zu können wurden auch in einem 3D-Modell verbaut und anschließend in dem Technikabteil der Holzkiste verbaut und verdrahtet. 
+
+
+## Software (Programmierungen):
+1.	Verwendung der Siemens LOGO 8:
+
+Zur Programmierung der Siemens Logo 8 verwenden wir die dazu passende Software LOGO!Soft Comfort. Mit dieser kann man ohne großartige Programmiervorkenntnisse ein Programm schreiben, welches von der Logo ausgeführt werden soll. Das Ganze wird mittels der Grafischen Benutzeroberfläche realisiert. Das Programm wird mit Logikgattern wie UND, ODER, NOR, usw. geschrieben. Man verbindet die einzelnen Gatter mit dem Pfad, um die Logik zu erstellen. Für eine bessere Übersichtlichkeit kann man die Linien auftrennen. Dabei wird am Anfang und Ende einer Verbindung ein grüner Pfeil eingefügt und die vielen unübersichtlichen Verbindungslinien entfernt. Um die Zugehörigkeiten der Pfeile nachvollziehen zu können, werden die Pfeile immer passend nach Ihrem Gegenstück benannt (Siehe Abbildung). 
+So kann der Code in einzelne Netzwerke aufgeteilt werden ohne dass es zu unübersichtlichen Verbindungsknäulen kommt. Um die Lesbarkeit des Programmcodes stark zu erhöhen, haben wir das Konzept durchgehend angewendet. 
+
+
+
+2.	Inputs der Siemens LOGO 8:
+Die hier für das Projekt verwendete Siemens Logo 8 hat standartmäßig 8 Inputs zur Verfügung. 
+Da wir für unser Realisiertes Projekt mehr Inputs benötigen, verwenden wir noch zusätzlich ein Erweiterungsmodul. 
+In der nebenstehenden Abbildung sieht man in Gelb die von uns festgelegten und verwendeten  Inputs, welche aufsteigend nummeriert sind. 
+Die Inputnummerierung stimmt mit der Nummer auf der Logo überein. Außerdem wurden die Inputs noch beschriftet, damit beim Programmieren leichter nachvollzogen werden kann, wofür der Input verwendet wird. Die Grünen Pfeile stehen für die weiteren Verwendungsorte im Programm. 
+
+3.	Outputs der Siemens LOGO 8:
+
+Um die Schiebetüren steuern zu können, werden vier Outputs an der Siemens LOGO 8 benötigt. Für jeden Output ist die Steuerung sehr ähnlich aufgebaut. Es ändern sich hauptsächlich die Signale, welche verwendet werden. Zu Beginn wurden zwei Oder-Gatter verwendet, da in LOGO!Soft die Gatter nur 4 Eingänge zur Verfügung stellen. Da wir zur vollständigen Realisierung mehr als vier Eingänge benötigen, verwenden wir zwei ODER-Gatter in Reihe. Die Eingänge, welche in die Oder-Gatter gehen, kommen jeweils von vorher Programmierten Code Teilen, wo entschieden wird, dass die Tür sich bewegen soll. Weiter geht das Signal in ein RS-Glied, welches das Signal so lange hält, bis ihm gesagt wird, das es aufhören soll. Zum Stoppen wird das Signal von den verbauten Endlagentaster verwendet, womit der Zustand der Tür bestimmt werden kann. Der Ausgang des RS-Glied geht an den Output der LOGO, wo die Motorsteuerung mit Hilfe von Relais gesteuert wird. 
+Mehr dazu kann im vorliegenden Verdrahtungsplan eingesehen werden. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.	Programmierung des Betriebsbeginns: 
+
+Diese 2 Programmausschnitte sind dafür da, die Schiebetüren der Holzkiste in die nötige Startposition zu bringen. 
+Wenn die LOGO Strom bekommt und der Programmablauf startet, wird der Blaue Merker aktiviert. Dieser lässt beide Türen schließen, um mögliche Fehlpositionen, welche beim Transport oder dem Aufbau entstanden sein könnten zu beheben (also die Tür ist weder vollständig geschlossen noch geöffnet). 
+In der linken Abbildung wird noch auf die Eingänge der Rätsel Auswahl geachtet. Zu Beginn sind bei jedem Rätsel beide Schiebetüren geschlossen weshalb, auf den Einschaltmoment der Inputs für die Rätsel Auswahl geachtet wird, um die Türen zu schließen. 
+Die rechte Abbildung zeigt den Programmausschnitt, welcher die Türen der Kiste in die Startposition für den Single- und Team-Modus bringt. Da zu Beginn der beiden Modis die Türen zu keinem Zeitpunkt gelichzeitig geöffnet oder geschlossen sind, wird bei der Auswahl eines Rätsels die geöffnete Türe geschlossen. 
+
+
+5.	Programmierungen zu Single-Team-Modus 
+
+Verwendet man das Projekt im einfachen Single- und Team-Modus, ohne ein Rätsel auszuwählen dann wird das Parkour Element als einfacher Durchgang genutzt. 
+
+Der hier abgebildete Code ist oben und unten symmetrisch aufgebaut.
+
+
+
+
+
+
+
+
+
+
+  	Hier wird geschaut, in welcher Stellung sich die Schiebetüren befinden. 
+
+ 	Für den Single-Modus wird nur geschaut, ob einer der Taster an der Außenseite der Holzkiste  gedrückt wurde. 
+ 	Für den Team-Modus wird geschaut, ob 2 Taster gleichzeitig gedrückt werden. 
+Außerdem gibt es eine Abfrage, ob der Schalter für den dafür nötigen Teammodus gedrückt wurde. 
+Die beiden Programmteile oben kommen in ein Oder-Gatter. Dieses Signal geht in ein Und-Gatter, welches den aktuellen Zustand der Türen aufnimmt, um dann die Türen anzusteuern 
+
+ 	Hier wird darauf geachtet, dass kein Rätsel aktiv ist. 
+In den unteren Eingang des UND-Gatters kommen die Signale von dem Kasten oben drüber. Der Ausgang steuert die Türen 
+
+
+
+
+
+
+
+6.	Programmierungen zu den Rätseln 
+
+Für das Projekt haben wir uns drei verschiedene Rätselarten ausgesucht. Alle Rätsel haben den gleichen Anfang (siehe Abbildung). Dieser Programmteil ist dafür da den richtigen Programmabschnitt zu auszuwählen. Außerdem kann so verhindert werden, dass zwei Rätsel gleichzeitig ausgewählt werden können. 
+
+
+
+
+
+Rätsel 1:
+ 
+In der folgenden Abbildung sieht man den Programmcode für das ersten auswählbare Rätsel. Das hier verwendete UND-Gatter ist dafür verantwortlich das beide Türen zu sind und die Kiste in Ihrer Grundstellung steht. Dieses Signal geht in ein weiteres UND-Gatter, in diesem drauf geachtet wird, dass immer nur der richtige Schalter gedrückt wird. Daraufhin wird das RS-Glied aktiviert. Dieses wird sofort resettet, wenn der gedrückte Taster losgelassen wird. Danach wird geschaut, ob der nächste Taster zusätzlich gedrückt wird und der Taster mindestes eine Sekunde gedrückt wird damit sich alle Türen öffnen. 
+
+Rätsel 2:
+ 
+Im zweiten Rätsel wird gezählt, wie oft die beiden äußeren Taster gedrückt werden. Wenn beide Taster mindesten 2-mal gedrückt wurden, geben sie das Signal weiter zum UND-Gatter, welches dann die beiden Schiebetüren öffnet. Danach werden die Zähler wieder resettet, damit das Rätsel für den nächsten Durchgang bereit ist.
+
+Rätsel 3:
+ 
+Im dritten Rätsel wird mittels des oben gezeigten Programmcode geschaut, ob die Taster in der richtigen Reihenfolge gedrückt wurden. Realisiert wird der ganze Vorgang durch in Reihe geschaltete RS-Glieder. Erforderlich sind vier Tastendrücke, weshalb vier RS-Glieder benötigt werden. Bei einer Falsch Eingabe werden alle RS-Glieder resettet und die Eingabekombination muss von neuem gestartet werden. Bei richtiger Eingabe öffnen sich die Schiebetüren und das Rätsel resettet, damit es für den nächsten Durchgang bereit ist.
+
+
+
+7.	Schließen der Schiebetüren:
+
+
+Damit im Rätsel Modus die Türen wieder von außen schließen kann ist folgender Programmausschnitt verantwortlich. Wenn irgendein Rätsel ausgewählt wurde und irgendein Taster bei offenen Türen gedrückt wird, schließen sich alle Schiebetüren. Somit befindet das ganze Projekt wieder in Ausgangsstellung. Dies kann verwendet werden, um das Rätsel für den nächsten Durchgang vorzubereiten, oder um die Türen für den Transport zu schließen.
+
+
+
+8.	Schiebtüre von Kisteninneren steuern:
+
+
+Dieser Programmteil wird in jedem Rätsel verwendet. So wird realisiert, dass die Türen von innen immer geöffnet und geschlossen werden können. Das obere UND-Gatter öffnet die Türen, wenn sie zu sind und das untere UND-Gatte schließt sie, wenn sie offen sind.
+
+
+
+
+9.	Lampensteuerung 
+
+Sobald die Box eingeschaltet wird und die Bauteile Strom bekommen, leuchten die Lampen dauerhaft. Situationsbedingt blinken die Leuchtdrucktaster, um den Nutzern Rückmeldung zu bestimmten Ausführungen zu geben. 
+Die Lampen sollen mit 1Hz blinken, wenn sich die Schiebtüren öffnen oder schließen. 
+Wenn das Rätsel 3 in der falschen Reihenfolge ausgeführt wird und somit ein Fehler entsteht, dann blinken die Lampen für 2 Sekunden schnell mit 5Hz.
+
+
+
+
+Wenn sich die Tür bewegt, schauen wir auf das Signal mit welchen die Tür gesteuert wird. Solange dafür ein Signal da ist, macht der Impulsgeber daraus ein Blinken mit 1Hz.
+
+
+
+
+
+
+
+
+
+
+Falls eine falsche Eingabe im dritten Rätsel getätigt wurde, wird das Resett Signal auch an diesen Programmausschnitt weitergeleitet. Dieser aktiviert das RS-Glied, wodurch ein Impulsgeber mit 5Hz aktiviert wird. Dieser funktioniert solange das RS-Glied aktiv ist. Abgeschaltet wird das RS-Glied wenn die Einschaltverzögerung, welche auf 2 Sekunden eingestellt ist, aktiviert wird.
+
