@@ -44,12 +44,15 @@ Die Arena befindet sich in den unteren zwei Dritteln der Kiste und kann über di
 Um den zweiten Boden einzubauen, werden zwei Querstreben in der Kiste verschraubt. Auf diesen wird der zweite Boden angebracht.
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/4bff7154-e678-4926-8ef1-eadd761ded5a" width='200'>
+   <br>
     <em>Balken zur Anbringung der Schiebetüren</em>
 </p>
+
 
 Bis auf die verbauten Motoren für die elektrischen Schiebetüren und die Leuchttaster für das Öffnen und Schließen dieser befinden sich alle elektrischen Bauteile in dem Technikabteil. Diese Aufteilung haben wir vorgenommen, um so gut wie alle Elektrischen Bauteile vom Rest der Box abtrennen zu können, um so mögliche Elektrounfälle zu vermeiden.
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/c2e76d22-6369-4f9d-a85f-81941367d177" width='200'>
+    <br>
     <em>Leuchtdrucktaster im Kisteninneren</em>
 </p>
 
@@ -77,6 +80,7 @@ Damit die Schiebetüre problemlos aufgehen kann haben wir an der rechten Seitenw
 
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/24bcc7fb-5c21-49ca-9e6b-2834d02db6ec" width='200'>
+    <br>
     <em>Aubau Holzkiste komplett</em>
 </p>
 
@@ -147,7 +151,7 @@ Die sechs verbauten Klemmbausteine wurden auch auf einer Hutschiene angebracht. 
 
 Die Taster um die verschiedenen Modi und Quizes auswählen zu können wurden auch in einem 3D-Modell verbaut und anschließend in dem Technikabteil der Holzkiste verbaut und verdrahtet. 
 <p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7ed0a7e0-c780-4cb3-98ec-dbe8b0d12a34" width='400'>
+    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7ed0a7e0-c780-4cb3-98ec-dbe8b0d12a34" width='600'>
 </p>
 <br>
 <br>
@@ -157,7 +161,7 @@ Die Taster um die verschiedenen Modi und Quizes auswählen zu können wurden auc
 4.	**Netzplan (Verkabelungsplan)**
 
 <p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/2da91e2b-6a3a-4f5f-aed7-77a35e39c9ef" width='400'>
+    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/2da91e2b-6a3a-4f5f-aed7-77a35e39c9ef" width='600'>
 </p>
 <br>
 <br>
