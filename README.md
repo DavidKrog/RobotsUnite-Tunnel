@@ -19,18 +19,9 @@ Ausschnitte haben wir an allen Seitenteilen der Holzkiste zur Stabilisierung vor
    Außerdem haben wir mittig in den Deckel ein 40x40cm großes Quadrat geschnitten um die Klapptüre für die Technikbox zu realisieren. +
    Für die Schiebetüren haben wir ein 35,5x34 cm (Höhe x Breite) großes Rechteck herausgeschnitten.
    Damit die Schiebetüren auf- und zufahren können mussten an der rechten Außenwand Einschnitte vorgenommen werden. Diese wurden passgenau zum Türaufbau gewählt. 
-<p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/24a0d200-1254-4909-b02c-f47d4d000c2b" width='200'>
-    <em>Ausschnitt Schiebetüre</em>
-</p>
-<p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6008f2bd-8f18-4c45-818c-c6f3de37b496" width='200'>
-    <em>Ausschnitt Deckel</em>
-</p>
-<p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/18a4c361-554c-4b4e-a319-a11c5feb765e" width='200'>
-    <em>Ausschnitte für den Auszug der Schiebetüren</em>
-</p>
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/24a0d200-1254-4909-b02c-f47d4d000c2b" width='200'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6008f2bd-8f18-4c45-818c-c6f3de37b496" width='200'>|<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/18a4c361-554c-4b4e-a319-a11c5feb765e" width='200'>
+:-------------------------:|:-------------------------:|:-----:
+<em>Ausschnitt Schiebetüre</em>| <em>Ausschnitt Deckel</em>|<em>Ausschnitte für den Auszug der Schiebetüren</em>
 
 <br>
 <br>
@@ -293,8 +284,7 @@ Dieser Programmteil wird in jedem Rätsel verwendet. So wird realisiert, dass di
 <br>
 <br>
 
-9.	**Lampensteuerung **
-
+9.	**Lampensteuerung**
 
 Sobald die Box eingeschaltet wird und die Bauteile Strom bekommen, leuchten die Lampen dauerhaft. Situationsbedingt blinken die Leuchtdrucktaster, um den Nutzern Rückmeldung zu bestimmten Ausführungen zu geben. 
 Die Lampen sollen mit 1Hz blinken, wenn sich die Schiebtüren öffnen oder schließen. 
