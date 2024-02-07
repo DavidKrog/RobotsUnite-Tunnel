@@ -19,10 +19,23 @@ Ausschnitte haben wir an allen Seitenteilen der Holzkiste zur Stabilisierung vor
    Außerdem haben wir mittig in den Deckel ein 40x40cm großes Quadrat geschnitten um die Klapptüre für die Technikbox zu realisieren. +
    Für die Schiebetüren haben wir ein 35,5x34 cm (Höhe x Breite) großes Rechteck herausgeschnitten.
    Damit die Schiebetüren auf- und zufahren können mussten an der rechten Außenwand Einschnitte vorgenommen werden. Diese wurden passgenau zum Türaufbau gewählt. 
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/24a0d200-1254-4909-b02c-f47d4d000c2b" width='200'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6008f2bd-8f18-4c45-818c-c6f3de37b496" width='200'>|<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/18a4c361-554c-4b4e-a319-a11c5feb765e" width='200'>
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/24a0d200-1254-4909-b02c-f47d4d000c2b" width='400'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6008f2bd-8f18-4c45-818c-c6f3de37b496" width='400'>|<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/18a4c361-554c-4b4e-a319-a11c5feb765e" width='400'>
 :-------------------------:|:-------------------------:|:-----:
 <em>Ausschnitt Schiebetüre</em>| <em>Ausschnitt Deckel</em>|<em>Ausschnitte für den Auszug der Schiebetüren</em>
 
+<br>
+<br>
+
+**Maßstab**
+
+
+<img width="400" alt="Tür_Vorne" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/5afd44c7-f0bf-4787-9ea2-72036619a8bc"> |  <img width="400" alt="Tür_Hinten" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/8116c9ba-04e3-40ef-8e7e-b68c3d1212ae">|<img width="400" alt="rechte_Seite" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/5f74e661-6883-400a-96f1-f136ed003667">
+:-------------------------:|:-------------------------:|:-----:
+<em>Türwand Vorne</em>| <em>Türwand Hinten</em>|<em>Rechte Seite</em>
+<img width="400" alt="Boden" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/2d49878a-8f5b-41d9-81d5-6dc7dda81689">|<img width="400" alt="Klappe_Deckel" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/59783853-8ec6-4533-b83b-044d5e6267ea">|<img width="400" alt="Deckel" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/13c416c3-8c38-40dc-bde8-7b3a847e8de1">
+<em>Bodenplatte</em>| <em>Dekelplatte</em>|<em>Klappe</em>
+<img width="400" alt="zwischenboden" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7e85f012-a1e9-4ab6-b0c4-081b0e2713c4">|<img width="400" alt="Tür" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/8ced7dbb-5931-49c3-926a-dbd7934d4485">|<img width="400" alt="linke_Seite" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/3047cf0a-ac53-4d00-8320-c12a7df887fd">
+<em>Zwischenplatte</em>| <em>Tür</em>|<em>Linke Seite</em>
 <br>
 <br>
 
@@ -30,7 +43,7 @@ Ausschnitte haben wir an allen Seitenteilen der Holzkiste zur Stabilisierung vor
 
 Um die Holzkiste sehr stabil zu bauen haben wir uns ein simples System überlegt. Hierzu haben wir an jeder Außenkante der einzelnen Holzplatten die Hälfte der Seite um jeweils 1,5cm ausgesägt und die andere Hälfte unberührt gelassen. Somit hat sich ein recht einfaches, aber effizientes Stecksystem ergeben, welches nach der Verschraubung sich als sehr stabil und robust erwiesen hat.
 
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/60a462f9-e731-48d1-9d22-f2a840dbfd90" width='200'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/b9a108d4-d59e-4d97-bdd5-96c33714786a" width='200'>
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/60a462f9-e731-48d1-9d22-f2a840dbfd90" width=''>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/b9a108d4-d59e-4d97-bdd5-96c33714786a" width=''>
 :-------------------------:|:-------------------------:
 <em>Ausschnitte an den Seitenwänden<em>| <em>Ausschnitte an den Seitenwänden</em>
 
@@ -66,11 +79,12 @@ Außerdem wurde am Boden eine Aussparung eingefräst, in dieser wir eine Führun
 Damit sich die Türen leicht öffnen und schließen haben wir uns für den Verbau von Schubauszügen entschieden. Diese lassen sich sehr leicht und ohne großen Kraftaufwand bewegen.
 Um die Türen elektrisch antreiben zu können wurde eine 37cm lange Zahnradschienen mit dem passenden Zahnrad 3D-Drucker gedruckt. Die Schienen werden mittig an der Schiebetürinnenseite, an den dafür vorgesehenen Laschen befestigt. Das Zahnrad wird passgenau an den Elektromotoren befestigt. Letztendlich wird der Motor in der Kiste so angebracht, dass sich das Zahnrad passend in der Zahnradschiene bewegt um die Schiebetüren auf- und zufahren lassen zu können. 
 Damit die Schiebetüre problemlos aufgehen kann haben wir an der rechten Seitenwand passend Ausschnitte vorgenommen (siehe Maße der Ausschnitte). 
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/01d1f0f4-5121-4e6d-9917-375b7487e957" width='200'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/ffda5f10-788f-4f33-be25-456a556f0f63" width='200'>|<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/97b3b739-dd2d-4ec6-a7be-688e8fd73aed" width='200'>
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/01d1f0f4-5121-4e6d-9917-375b7487e957" width='400'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/ffda5f10-788f-4f33-be25-456a556f0f63" width='400'>|<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/97b3b739-dd2d-4ec6-a7be-688e8fd73aed" width='400'>
 :-------------------------:|:-------------------------:|:-----:
 <em>Schiebetüre vorne<em>| <em>Schiebetüre hinten</em>| <em>Schiebetüre hinten ausgezogen</em>
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/043348d6-c215-48bf-b703-4c4c12f68ec3" width='200'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7ee301c3-b298-4888-950b-c4dff09300a6" width='200'>
-<em>Boden der Holzkiste<em>| <em>Schiebetüren verbaut</em>
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/043348d6-c215-48bf-b703-4c4c12f68ec3" width='400'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7ee301c3-b298-4888-950b-c4dff09300a6" width='400'>|<img width="200" alt="Befestigungtür" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/9b93c0d3-2864-4603-be76-9b5cb2883fd1">
+<em>Boden der Holzkiste<em>| <em>Schiebetüren verbaut</em>| <em> Befestigung der Schiene</em>
+
 
 
 <br>
