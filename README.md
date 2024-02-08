@@ -33,7 +33,7 @@ Ausschnitte haben wir an allen Seitenteilen der Holzkiste zur Stabilisierung vor
 :-------------------------:|:-------------------------:|:-----:
 <em>Türwand Vorne</em>| <em>Türwand Hinten</em>|<em>Rechte Seite</em>
 <img width="400" alt="Boden" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/2d49878a-8f5b-41d9-81d5-6dc7dda81689">|<img width="400" alt="Klappe_Deckel" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/59783853-8ec6-4533-b83b-044d5e6267ea">|<img width="400" alt="Deckel" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/13c416c3-8c38-40dc-bde8-7b3a847e8de1">
-<em>Bodenplatte</em>| <em>Dekelplatte</em>|<em>Klappe</em>
+<em>Bodenplatte</em>| <em>Deckelplatte</em>|<em>Klappe</em>
 <img width="400" alt="zwischenboden" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7e85f012-a1e9-4ab6-b0c4-081b0e2713c4">|<img width="400" alt="Tür" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/8ced7dbb-5931-49c3-926a-dbd7934d4485">|<img width="400" alt="linke_Seite" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/3047cf0a-ac53-4d00-8320-c12a7df887fd">
 <em>Zwischenplatte</em>| <em>Tür</em>|<em>Linke Seite</em>
 <br>
