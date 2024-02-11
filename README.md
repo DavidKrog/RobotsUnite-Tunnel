@@ -101,6 +101,20 @@ Damit die Schiebetüre problemlos aufgehen kann haben wir an der rechten Seitenw
 <br>
 <br>
 
+7. **Verbesserungen**
+ 
+Während der Konstruktion haben wir gemerkt, das nicht alles machbar ist, wie wir es geplant hatten. Dadurch mussten wir manchmal bisschen improvisieren. Dies ist einer der Gründe warum die rechte Seite der Box die besondere Aussparung für die Schiebetür besitzt.
+Damit die Konstruktion beim Nachbau besser aussieht und man aus den Erfahrungen profitieren kann, haben wir für manche Bretter neuere und verbesserte Skizzen erstellt.
+
+
+<img width="2000" alt="Boden_Verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/35fa0bf8-6ca8-4932-a56c-3c5d3e62b562">| Bodenplatte: <br>Es gäbe ein Stückchen welches wir einzeln befestigen und kleben mussten, da ansonsten die Wahrscheinlichkeit zu hoch war, das es mit der Zeit abbricht. Deswegen wurden die Aussparungen  der Bodenplatte angepasst. Dies sollte das aussägen der einzelnen Teile und das spätere zusammenstecken erleichtern.|
+| ------------------ | ------------------ |
+<img width="400" alt="Tür verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/4e51720e-f7d7-407d-b946-bddcf46f4d66">| Tür: <br>Durch die Montage der Auszugsschiene, welche anders wurde als geplant, muss die Tür höher sein um im Innenraum die Höhe für die Roboter gewährleisten können. Außerdem kann man durch die größere Breite der Tür es so einstellen, dass bei geschlossener Tür die rechte Seite bündig ist und keine Löcher vorhanden sind, wodurch auch der Innenraum dunkler wird. Die Auszugsschiene wird oben entlang der langen Seite montiert.  |
+<img width="400" alt="rechte_Seite_verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6d551499-1e20-4fc4-a0e7-80c703cdd8a4">| Rechte Seite: <br> Durch die veränderten Tür maße kann man die Rechte Seite anpassen. Dadurch wird das aussägen leichter und das Ergebnis wird schöner. |
+
+<br>
+<br>
+
 ## Hardware (Aufbau der Elektrik):
 1.	**Verwendete Bauteile und deren Funktion**
 
