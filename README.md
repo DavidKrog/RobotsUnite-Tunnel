@@ -111,7 +111,7 @@ Damit die Konstruktion beim Nachbau besser aussieht und man aus den Erfahrungen 
 
 <img width="2000" alt="Boden_Verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/35fa0bf8-6ca8-4932-a56c-3c5d3e62b562">| Bodenplatte: <br>Es gäbe ein Stückchen welches wir einzeln befestigen und kleben mussten, da ansonsten die Wahrscheinlichkeit zu hoch war, das es mit der Zeit abbricht. Deswegen wurden die Aussparungen  der Bodenplatte angepasst. Dies sollte das aussägen der einzelnen Teile und das spätere zusammenstecken erleichtern.|
 | ------------------ | ------------------ |
-<img width="400" alt="Tür verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/4e51720e-f7d7-407d-b946-bddcf46f4d66">| Tür: <br>Durch die Montage der Auszugsschiene, welche anders wurde als geplant, muss die Tür höher sein um im Innenraum die Höhe für die Roboter gewährleisten können. Außerdem kann man durch die größere Breite der Tür es so einstellen, dass bei geschlossener Tür die rechte Seite bündig ist und keine Löcher vorhanden sind, wodurch auch der Innenraum dunkler wird. Die Auszugsschiene wird oben entlang der langen Seite montiert.  |
+<img width="400" alt="Tür verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/3fbdbcbe-ba01-490e-b0a1-07eadc6f374c">| Tür: <br>Durch die Montage der Auszugsschiene, welche anders wurde als geplant, muss die Tür höher sein um im Innenraum die Höhe für die Roboter gewährleisten können. Außerdem kann man durch die größere Breite der Tür es so einstellen, dass bei geschlossener Tür die rechte Seite bündig ist und keine Löcher vorhanden sind, wodurch auch der Innenraum dunkler wird. Die Auszugsschiene wird oben entlang der langen Seite montiert.  |
 <img width="400" alt="rechte_Seite_verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6d551499-1e20-4fc4-a0e7-80c703cdd8a4">| Rechte Seite: <br> Durch die veränderten Tür maße kann man die Rechte Seite anpassen. Dadurch wird das aussägen leichter und das Ergebnis wird schöner. |
 
 <br>
@@ -213,7 +213,7 @@ So kann der Code in einzelne Netzwerke aufgeteilt werden ohne dass es zu unüber
 2.	**Inputs der Siemens LOGO 8:**
 
 <p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/df386204-3d27-46d8-a609-4dca9dbaeab2" width='400'>
+    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/3e6dda07-c108-4270-8c34-54fdf67e47ed" width='400'>
 </p>
 Die hier für das Projekt verwendete Siemens Logo 8 hat standartmäßig 8 Inputs zur Verfügung. 
 Da wir für unser Realisiertes Projekt mehr Inputs benötigen, verwenden wir noch zusätzlich ein Erweiterungsmodul. 
@@ -236,7 +236,7 @@ Mehr dazu kann im vorliegenden Verdrahtungsplan eingesehen werden.
 4.	**Programmierung des Betriebsbeginns:**
 
 <p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/1bea59ae-6cb6-47a0-a015-f57a2b6bd5dc" width='400'>
+    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/c2858b2f-c7f1-4bbd-b47a-e0acb93ebea1" width='400'>
 </p>
 Diese 2 Programmausschnitte sind dafür da, die Schiebetüren der Holzkiste in die nötige Startposition zu bringen. 
 Wenn die LOGO Strom bekommt und der Programmablauf startet, wird der Blaue Merker aktiviert. Dieser lässt beide Türen schließen, um mögliche Fehlpositionen, welche beim Transport oder dem Aufbau entstanden sein könnten zu beheben (also die Tür ist weder vollständig geschlossen noch geöffnet). 
@@ -248,7 +248,7 @@ Die rechte Abbildung zeigt den Programmausschnitt, welcher die Türen der Kiste 
 5.	**Programmierungen zu Single-Team-Modus**
 
 <p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/117b7968-aab3-4b29-b6d2-55bc3907e2f9" width='400'>
+    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/4251e009-e98c-4152-b727-394413969239" width='400'>
 </p>
 Verwendet man das Projekt im einfachen Single- und Team-Modus, ohne ein Rätsel auszuwählen dann wird das Parkour Element als einfacher Durchgang genutzt. 
 
@@ -256,8 +256,8 @@ Der hier abgebildete Code ist oben und unten symmetrisch aufgebaut.
 
 <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6f97b600-ce70-4c96-8dd5-6828b6d0219b" width='400'>| Hier wird geschaut, in welcher Stellung sich die Schiebetüren befinden.  |
 | ------------------ | ------------------ |
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/b80441c6-450b-4067-b7a8-0c69822d4d67" width='400'>| Für den Single-Modus wird nur geschaut, ob einer der Taster an der Außenseite der Holzkiste  gedrückt wurde.  |
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/f384f822-8872-4416-846b-5bcb0ce3c86b" width='400'>| Für den Team-Modus wird geschaut, ob 2 Taster gleichzeitig gedrückt werden.  |
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/9f561f78-7151-41f2-a18c-c1ab68f1dab3" width='400'>| Für den Single-Modus wird nur geschaut, ob einer der Taster an der Außenseite der Holzkiste  gedrückt wurde.  |
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/15851698-c428-4fdc-880e-9d4b7cce8a43" width='400'>| Für den Team-Modus wird geschaut, ob 2 Taster gleichzeitig gedrückt werden.  |
 
 Außerdem gibt es eine Abfrage, ob der Schalter für den dafür nötigen Teammodus gedrückt wurde. 
 Die beiden Programmteile oben kommen in ein Oder-Gatter. Dieses Signal geht in ein Und-Gatter, welches den aktuellen Zustand der Türen aufnimmt, um dann die Türen anzusteuern 
@@ -288,7 +288,7 @@ In der folgenden Abbildung sieht man den Programmcode für das ersten auswählba
 Rätsel 2:
 
 <p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6c504037-3820-47d4-8d30-d6118bfbb9f7" width='400'>
+    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/42f9061e-3eb0-470a-8fd8-974a30493a37" width='400'>
 </p>
 Im zweiten Rätsel wird gezählt, wie oft die beiden äußeren Taster gedrückt werden. Wenn beide Taster mindesten 2-mal gedrückt wurden, geben sie das Signal weiter zum UND-Gatter, welches dann die beiden Schiebetüren öffnet. Danach werden die Zähler wieder resettet, damit das Rätsel für den nächsten Durchgang bereit ist.
 <br>
@@ -297,7 +297,7 @@ Im zweiten Rätsel wird gezählt, wie oft die beiden äußeren Taster gedrückt 
 Rätsel 3:
 
 <p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/073e7267-f95b-4704-9551-fe4c264fea1f" width='400'>
+    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/92bdfb8c-8a79-4fee-8b57-ff2d5ad9def7" width='400'>
 </p>
 Im dritten Rätsel wird mittels des oben gezeigten Programmcode geschaut, ob die Taster in der richtigen Reihenfolge gedrückt wurden. Realisiert wird der ganze Vorgang durch in Reihe geschaltete RS-Glieder. Erforderlich sind vier Tastendrücke, weshalb vier RS-Glieder benötigt werden. Bei einer Falsch Eingabe werden alle RS-Glieder resettet und die Eingabekombination muss von neuem gestartet werden. Bei richtiger Eingabe öffnen sich die Schiebetüren und das Rätsel resettet, damit es für den nächsten Durchgang bereit ist.
 <br>
