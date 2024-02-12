@@ -36,6 +36,8 @@ Ausschnitte haben wir an allen Seitenteilen der Holzkiste zur Stabilisierung vor
 <em>Bodenplatte</em>| <em>Deckelplatte</em>|<em>Klappe</em>
 <img width="400" alt="zwischenboden" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7e85f012-a1e9-4ab6-b0c4-081b0e2713c4">|<img width="400" alt="Tür" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/8ced7dbb-5931-49c3-926a-dbd7934d4485">|<img width="400" alt="linke_Seite" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/3047cf0a-ac53-4d00-8320-c12a7df887fd">
 <em>Zwischenplatte</em>| <em>Tür</em>|<em>Linke Seite</em>
+
+Bei dem Zwischenboden muss man Aussparungen für Kabel und eventuell für den Endlagentaster machen. Diese sind nicht in der Skizze eingetragen, da dies je nach Montage der Elektrik in Größe und Position variiert.
 <br>
 <br>
 
@@ -185,8 +187,10 @@ Die Taster um die verschiedenen Modi und Quizes auswählen zu können wurden auc
 <br>
 
 3.	**Verkabelungen und Montage der Bauteile im Kisteninneren (Aufbauplan)**
+    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/cedf1033-1329-4ba0-adef-044b981e362a" width='600'>
 
-4.	**Netzplan (Verkabelungsplan)**
+
+5.	**Netzplan (Verkabelungsplan)**
 
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/2da91e2b-6a3a-4f5f-aed7-77a35e39c9ef" width='600'>
