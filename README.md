@@ -181,7 +181,8 @@ Die sechs verbauten Klemmbausteine wurden auch auf einer Hutschiene angebracht. 
 
 Die Taster um die verschiedenen Modi und Quizes auswählen zu können wurden auch in einem 3D-Modell verbaut und anschließend in dem Technikabteil der Holzkiste verbaut und verdrahtet. 
 <p>
-    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7ed0a7e0-c780-4cb3-98ec-dbe8b0d12a34" width='600'>
+    <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/444444d6-0873-4e61-b805-82a791826250" width='600'>
+   
 </p>
 <br>
 <br>
