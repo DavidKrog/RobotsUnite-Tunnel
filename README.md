@@ -56,7 +56,7 @@ Um die Holzkiste sehr stabil zu bauen haben wir uns ein simples System überlegt
 
 Die Holzkiste wird in einen Arena- und Technikabteil aufgeteilt.
 Die Arena befindet sich in den unteren zwei Dritteln der Kiste und kann über die beiden verbauten Schiebetüren betreten und genutzt werden. Die Technik im oberen Drittel der Kiste ist einfach über den klappbaren Deckel auf der Oberseite der Box erreichbar. Im inneren der Kiste haben wir einen zweiten Boden verbaut, um die beiden Abteile abzutrennen.
-Um den zweiten Boden einzubauen, werden zwei Querstreben in der Kiste verschraubt. Die Position wird von der Schiebetür und den verwndeted Auszugsschienen bestimmt. Auf diesen wird der zweite Boden angebracht.
+Um den zweiten Boden einzubauen, werden zwei Querstreben in der Kiste verschraubt. Die Position wird von der Schiebetür und den verwendeten Auszugsschienen bestimmt. Auf diesen wird der zweite Boden angebracht.
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/4bff7154-e678-4926-8ef1-eadd761ded5a" width='200'>
    <br>
