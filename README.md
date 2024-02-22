@@ -1,6 +1,10 @@
 # RobotsUnite-Tunnel
+Autor: <br> 
+Celina Engel <br>
+David Kroginski
+
 ## Hardware (Aufbau der Holzbox):
-1.	**Maße der verschiedenen Bauelemente**
+1.	**Maße der verschiedenen Bauelemente:**
 
 Für den Bau der Holzkiste haben wir mit 10 Bauteile gerechnet, damit die Kiste stabil ist, allen Anforderungen entspricht und die erwünschten Funktionsweisen umgesetzt werden können.
 
@@ -13,20 +17,20 @@ Verwendet haben wir dafür:
 <br>
 <br>
 
-2. **Maße der Ausschnitte**
+2. **Maße der Ausschnitte:**
 
 Ausschnitte haben wir an allen Seitenteilen der Holzkiste zur Stabilisierung vorgenommen (siehe Stabilisierung der Box).
-   Außerdem haben wir mittig in den Deckel ein 40x40cm großes Quadrat geschnitten um die Klapptüre für die Technikbox zu realisieren. +
+   Außerdem haben wir mittig in den Deckel ein 40x40cm großes Quadrat geschnitten, um die Klapptüre für die Technikbox zu realisieren.
    Für die Schiebetüren haben wir ein 35,5x34 cm (Höhe x Breite) großes Rechteck herausgeschnitten.
    Damit die Schiebetüren auf- und zufahren können mussten an der rechten Außenwand Einschnitte vorgenommen werden. Diese wurden passgenau zum Türaufbau gewählt. 
 <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/24a0d200-1254-4909-b02c-f47d4d000c2b" width='400'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6008f2bd-8f18-4c45-818c-c6f3de37b496" width='400'>|<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/18a4c361-554c-4b4e-a319-a11c5feb765e" width='400'>
 :-------------------------:|:-------------------------:|:-----:
-<em>Ausschnitt Schiebetüre</em>| <em>Ausschnitt Deckel</em>|<em>Ausschnitte für den Auszug der Schiebetüren</em>
+<em>Ausschnitte Schiebetüre</em>| <em>Ausschnitt Deckel</em>|<em>Ausschnitte für den Auszug der Schiebetüren</em>
 
 <br>
 <br>
 
-**Maßstab**
+**Maßstab:**
 
 
 <img width="400" alt="Tür_Vorne" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/5afd44c7-f0bf-4787-9ea2-72036619a8bc"> |  <img width="400" alt="Tür_Hinten" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/8116c9ba-04e3-40ef-8e7e-b68c3d1212ae">|<img width="400" alt="rechte_Seite" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/5f74e661-6883-400a-96f1-f136ed003667">
@@ -41,7 +45,7 @@ Bei dem Zwischenboden muss man Aussparungen für Kabel und eventuell für den En
 <br>
 <br>
 
-3. **Stabilisierung der Box**
+3. **Stabilisierung der Box:**
 
 Um die Holzkiste sehr stabil zu bauen haben wir uns ein simples System überlegt. Hierzu haben wir an jeder Außenkante der einzelnen Holzplatten die Hälfte der Seite um jeweils 1,5cm ausgesägt und die andere Hälfte unberührt gelassen. Somit hat sich ein recht einfaches, aber effizientes Stecksystem ergeben, welches nach der Verschraubung sich als sehr stabil und robust erwiesen hat.
 
@@ -52,7 +56,7 @@ Um die Holzkiste sehr stabil zu bauen haben wir uns ein simples System überlegt
 <br>
 <br>
 
-4. **Aufteilung der Box in Arena- und Technikabteil**
+4. **Aufteilung der Box in Arena- und Technikabteil:**
 
 Die Holzkiste wird in einen Arena- und Technikabteil aufgeteilt.
 Die Arena befindet sich in den unteren zwei Dritteln der Kiste und kann über die beiden verbauten Schiebetüren betreten und genutzt werden. Die Technik im oberen Drittel der Kiste ist einfach über den klappbaren Deckel auf der Oberseite der Box erreichbar. Im inneren der Kiste haben wir einen zweiten Boden verbaut, um die beiden Abteile abzutrennen.
@@ -74,7 +78,7 @@ Bis auf die verbauten Motoren für die elektrischen Schiebetüren und die Leucht
 <br>
 <br>
 
-5. **Schiebetürmechanismus (3D-Druck und Modell der Zahnradschiene und Zahnrad)**
+5. **Schiebetürmechanismus (3D-Druck und Modell der Zahnradschiene und Zahnrad):**
 
 Die verbauten Schiebetüren wurden ein kleines bisschen Größer als der Ausschnitt an der Vorder- und Rückseite gewählt. Damit wollen wir gewährleisten, dass die Türen bündig am Gehäuse anliegen und seitlich nicht durch Schlitze hindurchgeschaut werden kann.  
 Außerdem wurde am Boden eine Aussparung eingefräst, in dieser wir eine Führungsschiene verlegt haben. Somit verhindern wir, dass sich die Holztüren verhaken können.  
@@ -84,7 +88,7 @@ Damit die Schiebetüre problemlos aufgehen kann haben wir an der rechten Seitenw
 <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/01d1f0f4-5121-4e6d-9917-375b7487e957" width='400'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/ffda5f10-788f-4f33-be25-456a556f0f63" width='400'>|<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/97b3b739-dd2d-4ec6-a7be-688e8fd73aed" width='400'>
 :-------------------------:|:-------------------------:|:-----:
 <em>Schiebetüre vorne<em>| <em>Schiebetüre hinten</em>| <em>Schiebetüre hinten ausgezogen</em>
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/043348d6-c215-48bf-b703-4c4c12f68ec3" width='400'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7ee301c3-b298-4888-950b-c4dff09300a6" width='400'>|<img width="200" alt="Befestigungtür" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/9b93c0d3-2864-4603-be76-9b5cb2883fd1">
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/043348d6-c215-48bf-b703-4c4c12f68ec3" width='400'>  |  <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/7ee301c3-b298-4888-950b-c4dff09300a6" width='400'>|<img width="80" alt="Befestigungtür" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/9b93c0d3-2864-4603-be76-9b5cb2883fd1">
 <em>Boden der Holzkiste<em>| <em>Schiebetüren verbaut</em>| <em> Befestigung der Schiene</em>
 
 
@@ -92,7 +96,7 @@ Damit die Schiebetüre problemlos aufgehen kann haben wir an der rechten Seitenw
 <br>
 <br>
 
-6.	**Aufbauplan**
+6.	**Aufbauplan:**
 
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/24bcc7fb-5c21-49ca-9e6b-2834d02db6ec" width='200'>
@@ -103,26 +107,27 @@ Damit die Schiebetüre problemlos aufgehen kann haben wir an der rechten Seitenw
 <br>
 <br>
 
-7. **Verbesserungen**
+7. **Verbesserungen:**
  
-Während der Konstruktion haben wir gemerkt, das nicht alles machbar ist, wie wir es geplant hatten. Dadurch mussten wir manchmal bisschen improvisieren. Dies ist einer der Gründe warum die rechte Seite der Box die besondere Aussparung für die Schiebetür besitzt.
-Damit die Konstruktion beim Nachbau besser aussieht und man aus den Erfahrungen profitieren kann, haben wir für manche Bretter neuere und verbesserte Skizzen erstellt.
+Während der Konstruktion haben wir gemerkt, dass nicht alles machbar ist, wie wir es geplant hatten. Dadurch mussten wir manchmal bisschen improvisieren. Dies ist einer der Gründe, warum die rechte Seite der Box die besondere Aussparung für die Schiebetür besitzt.
+Damit die äußere Erscheinungsform der Box ordentlicher ist und man aus den Erfahrungen profitieren kann, haben wir für den Aufbau der Kiste teilweise die Maße noch einmal angepasst.
 
 
-<img width="2000" alt="Boden_Verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/35fa0bf8-6ca8-4932-a56c-3c5d3e62b562">| Bodenplatte: <br>Es gäbe ein Stückchen welches wir einzeln befestigen und kleben mussten, da ansonsten die Wahrscheinlichkeit zu hoch war, das es mit der Zeit abbricht. Deswegen wurden die Aussparungen  der Bodenplatte angepasst. Dies sollte das aussägen der einzelnen Teile und das spätere zusammenstecken erleichtern.|
+| ||
 | ------------------ | ------------------ |
-<img width="400" alt="Tür verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/3fbdbcbe-ba01-490e-b0a1-07eadc6f374c">| Tür: <br>Durch die Montage der Auszugsschiene, welche anders wurde als geplant, muss die Tür höher sein um im Innenraum die Höhe für die Roboter gewährleisten können. Außerdem kann man durch die größere Breite der Tür es so einstellen, dass bei geschlossener Tür die rechte Seite bündig ist und keine Löcher vorhanden sind, wodurch auch der Innenraum dunkler wird. Die Auszugsschiene wird oben entlang der langen Seite montiert.  |
-<img width="400" alt="rechte_Seite_verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6d551499-1e20-4fc4-a0e7-80c703cdd8a4">| Rechte Seite: <br> Durch die veränderten Tür maße kann man die Rechte Seite anpassen. Dadurch wird das aussägen leichter und das Ergebnis wird schöner. |
+<img width="2000" alt="Boden_Verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/35fa0bf8-6ca8-4932-a56c-3c5d3e62b562">| Bodenplatte: <br>Aufgrund der vorher festgelegten Stabilitätsausschnitte würde eine Freifläche vor den Schiebetüren entstehen. Um diese zu vermeiden, wurden die Aussparungen an der Bodenplatte angepasst. Dies soll das Aussägen der einzelnen Teile und das spätere zusammenbauen erleichtern.|
+<img width="400" alt="Tür verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/3fbdbcbe-ba01-490e-b0a1-07eadc6f374c">| Schiebetüre: <br>Die Montage der Auszugsschiene war zu beginn des Kistenbaus anders vorgesehen gewesen. Aufgrund dessen wurden Anpassungen an der Größe der Schiebetüre vorgenommen um sich ein Zwischenbrett an der Schiebetüre für die Anbringung der Schubauszüge zu sparen.|
+<img width="400" alt="rechte_Seite_verändert" src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6d551499-1e20-4fc4-a0e7-80c703cdd8a4">| Rechte Wandseite: <br> Durch die veränderten Tür Maße kann man auch die Ausschnitte der rechten Außenwand anpassen. So wird das aussägen leichter und das Gesamtergebnis auch schöner.|
 
 <br>
 <br>
 
 ## Hardware (Aufbau der Elektrik):
-1.	**Verwendete Bauteile und deren Funktion**
+1.	**Verwendete Bauteile und deren Funktion:**
 
 **Siemens LOGO 8:**
 
-Diese verwendet, um alle nötigen Programmierungen für das Projekt vorzunehmen. Realisiert werden damit der Schiebetürmechanismus, die Leuchttaster, der Single- und Multimode und die ausgedachten Rätsel. Die Programmierungen wurden mit Siemens LOGO!Soft Comfort vorgenommen.
+Die Siemens LOGO 8 wird verwendet, um alle nötigen Programmierungen für das Projekt vorzunehmen. Realisiert wird damit der Schiebetürmechanismus, die Leuchttaster, der Single- und Multimode und die ausgedachten Rätsel. Die Programmierungen wurden mit Siemens LOGO!Soft Comfort vorgenommen.
 <br>
 <br>
 
@@ -134,13 +139,13 @@ Das 24V-Netzteil welche einen maximalen Ausgangsstrom von 4,5A hat wurde ausgew�
 
 **Sicherungen:**
 
-Wir nutzen Schmelzsicherungen, weil diese klein und kompakt sind. Außerdem kann man diese flexibel anpassen und falls nötig nochmals zu einem späteren Zeitpunkt den abzusichernden Strom einstellen. Insgesamt werden in dem Projekt fünf Sicherungen verbaut. Jeweils eine Sicherung für die Spannungsversorgung der LOGO, für die Eingänge, welche in die Logo führen, die ersten vier Relais Ausgänge der LOGO, für die Motorsteuerung und eine Sicherung für die LEDs der Leuchtdrucktaster. 
+Wir nutzen Schmelzsicherungen, da diese klein und kompakt sind. Außerdem kann man diese flexibel anpassen und falls nötig nochmals zu einem späteren Zeitpunkt den abzusichernden Strom einstellen. Insgesamt werden in dem Projekt fünf Sicherungen verbaut. Jeweils eine Sicherung für die Spannungsversorgung der LOGO, für die Eingänge, welche in die Logo führen, die ersten vier Relais Ausgänge der LOGO, für die Motorsteuerung und eine Sicherung für die LEDs der Leuchtdrucktaster.
 <br>
 <br>
 
 **Relais:**
 
-In unserer Schaltung verwenden wir Relais, um die Motoren anzusteuern. Pro Drehrichtung des Motors werden 3 Relais verwendet. Ein Relais dient als Sicherung, sodass nicht durch falsches Bedienen der Motor gleichzeitig in den Rechts- und Linkslauf gelangen kann, wodurch ein Kurzschluss entstehen würde. Dies funktioniert in dem man das Relais als Öffner verwendet und in Reihe zum Spulenkontakt des zweikanaligen Relais verschaltet. Das Zweite Relais ist in Reihe zum ersten Relay und wird durch den Endlagentaster gesteuert. Dadurch kann man sicher gehen, dass der Motor aufhört, wenn die Endlage erreicht wurde.
+In unserer Schaltung verwenden wir Relais, um die Motoren anzusteuern. Pro Drehrichtung des Motors werden 3 Relais verwendet. Ein Relais dient als Sicherung, sodass nicht durch falsches Bedienen der Motor gleichzeitig in den Rechts- und Linkslauf gelangen kann, wodurch ein Kurzschluss entstehen würde. Dies funktioniert in dem man das Relais als Öffner verwendet und in Reihe zum Spulenkontakt des zweikanaligen Relais verschaltet. Das Zweite Relais ist in Reihe zum ersten Relai und wird durch den Endlagentaster gesteuert. Dadurch kann man sicher gehen, dass der Motor aufhört, wenn die Endlage erreicht wurde.
 Das dritte Relais ist 2-kanalig, wodurch es uns möglich ist, einfach und sicher zwischen den beiden Leitungen des Motors zu wechseln, um ein Richtungswechsel zu ermöglichen.
 <br>
 <br>
@@ -159,8 +164,7 @@ An jeder Schiebetüre werden jeweils zwei Endlagentaster angebracht. Diese solle
 
 **Spannungswandler:**
 
-Die Spannungswandler werden dafür verwendet, um die 24V vom Netzteil auf die nur teilweise maximal benötigten 12V für die Leuchttaster und Elektromotoren zu wandeln. Auf den Spannungswandlern befindet sich eine Digitale Anzeige, mit dieser man sehr einfach die Passenden Werte einstellen kann. 
-Die Spannungswandler werden in einer selbstentworfenen 3D-Druck Box im Technikabteil der Holzkiste verbaut. 
+Die Spannungswandler werden dafür verwendet, um die 24V vom Netzteil auf die nur teilweise maximal benötigten 12V für die Leuchttaster und Elektromotoren zu wandeln. Auf den Spannungswandlern befindet sich eine digitale Anzeige, mit dieser man sehr einfach die passenden Werte einstellen kann. Die Spannungswandler werden in einer selbstentworfenen 3D-Druck Box im Technikabteil der Holzkiste verbaut. 
 <br>
 <br>
 
@@ -171,7 +175,7 @@ Die Leuchtaster sind dauerhaft im Leuchtbetrieb, wenn sich die Schiebtüren bewe
 <br>
 <br>
 
-2.	**Verkabelungen und Montage der Bauteile in der Technikbox (Aufbauplan)**
+2.	**Verkabelungen und Montage der Bauteile in der Technikbox (Aufbauplan):**
 
 In der Technikbox wird die Siemens LOGO 8, das passende Erweiterungsmodul, die Relais und die Sicherungen auf einer 35mm breiten Hutschiene verbaut. 
 
@@ -187,11 +191,11 @@ Die Taster um die verschiedenen Modi und Quizes auswählen zu können wurden auc
 <br>
 <br>
 
-3.	**Verkabelungen und Montage der Bauteile im Kisteninneren (Aufbauplan)**
+3.	**Verkabelungen und Montage der Bauteile im Kisteninneren (Aufbauplan):**
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/cedf1033-1329-4ba0-adef-044b981e362a" width='600'>
 
 
-5.	**Netzplan (Verkabelungsplan)**
+5.	**Netzplan (Verkabelungsplan):**
 
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/2da91e2b-6a3a-4f5f-aed7-77a35e39c9ef" width='600'>
@@ -205,8 +209,7 @@ Die Taster um die verschiedenen Modi und Quizes auswählen zu können wurden auc
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/742266b3-322e-44cc-a67b-831e52a10a6e" width='400'>
 </p>
-Zur Programmierung der Siemens Logo 8 verwenden wir die dazu passende Software LOGO!Soft Comfort. Mit dieser kann man ohne großartige Programmiervorkenntnisse ein Programm schreiben, welches von der Logo ausgeführt werden soll. Das Ganze wird mittels der Grafischen Benutzeroberfläche realisiert. Das Programm wird mit Logikgattern wie UND, ODER, NOR, usw. geschrieben. Man verbindet die einzelnen Gatter mit dem Pfad, um die Logik zu erstellen. Für eine bessere Übersichtlichkeit kann man die Linien auftrennen. Dabei wird am Anfang und Ende einer Verbindung ein grüner Pfeil eingefügt und die vielen unübersichtlichen Verbindungslinien entfernt. Um die Zugehörigkeiten der Pfeile nachvollziehen zu können, werden die Pfeile immer passend nach Ihrem Gegenstück benannt (Siehe Abbildung). 
-So kann der Code in einzelne Netzwerke aufgeteilt werden ohne dass es zu unübersichtlichen Verbindungsknäulen kommt. Um die Lesbarkeit des Programmcodes stark zu erhöhen, haben wir das Konzept durchgehend angewendet.
+Zur Programmierung der Siemens Logo 8 verwenden wir die dazu passende Software LOGO!Soft Comfort. Mit dieser kann man ohne großartige Programmiervorkenntnisse ein Programm schreiben, welches von der Logo ausgeführt werden soll. Das Ganze wird mittels der Grafischen Benutzeroberfläche realisiert. Das Programm wird mit Logikgattern wie UND, ODER, NOR, usw. geschrieben. Man verbindet die einzelnen Gatter mit dem Pfad, um die Logik zu erstellen. Für eine bessere Übersichtlichkeit kann man die Linien auftrennen. Dabei wird am Anfang und Ende einer Verbindung ein grüner Pfeil eingefügt und die vielen unübersichtlichen Verbindungslinien entfernt. Um die Zugehörigkeiten der Pfeile nachvollziehen zu können, werden die Pfeile immer passend nach ihrem Gegenstück benannt (siehe Abbildung). So kann der Code in einzelne Netzwerke aufgeteilt werden, ohne dass es zu unübersichtlichen Verbindungsknäulen kommt. Um die Lesbarkeit des Programmcodes stark zu erhöhen, haben wir das Konzept durchgehend angewendet.
 <br>
 <br>
 
@@ -238,14 +241,11 @@ Mehr dazu kann im vorliegenden Verdrahtungsplan eingesehen werden.
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/c2858b2f-c7f1-4bbd-b47a-e0acb93ebea1" width='400'>
 </p>
-Diese 2 Programmausschnitte sind dafür da, die Schiebetüren der Holzkiste in die nötige Startposition zu bringen. 
-Wenn die LOGO Strom bekommt und der Programmablauf startet, wird der Blaue Merker aktiviert. Dieser lässt beide Türen schließen, um mögliche Fehlpositionen, welche beim Transport oder dem Aufbau entstanden sein könnten zu beheben (also die Tür ist weder vollständig geschlossen noch geöffnet). 
-In der linken Abbildung wird noch auf die Eingänge der Rätsel Auswahl geachtet. Zu Beginn sind bei jedem Rätsel beide Schiebetüren geschlossen weshalb, auf den Einschaltmoment der Inputs für die Rätsel Auswahl geachtet wird, um die Türen zu schließen. 
-Die rechte Abbildung zeigt den Programmausschnitt, welcher die Türen der Kiste in die Startposition für den Single- und Team-Modus bringt. Da zu Beginn der beiden Modis die Türen zu keinem Zeitpunkt gelichzeitig geöffnet oder geschlossen sind, wird bei der Auswahl eines Rätsels die geöffnete Türe geschlossen. 
+Diese 2 Programmausschnitte sind dafür da, die Schiebetüren der Holzkiste in die nötige Startposition zu bringen. Wenn die LOGO Strom bekommt und der Programmablauf startet, wird der Blaue Merker aktiviert. Dieser lässt beide Türen schließen, um mögliche Fehlpositionen, welche beim Transport oder dem Aufbau entstanden sein könnten zu beheben (also die Tür ist weder vollständig geschlossen noch geöffnet). In der linken Abbildung wird noch auf die Eingänge der Rätsel Auswahl geachtet. Zu Beginn sind bei jedem Rätsel beide Schiebetüren geschlossen weshalb, auf den Einschaltmoment der Inputs für die Rätselauswahl geachtet wird, um die Türen zu schließen. Die rechte Abbildung zeigt den Programmausschnitt, welcher die Türen der Kiste in die Startposition für den Single- und Team-Modus bringt. Da zu Beginn der beiden Modis die Türen zu keinem Zeitpunkt gleichzeitig geöffnet oder geschlossen sind, wird bei der Auswahl eines Rätsels die geöffnete Türe geschlossen.
 <br>
 <br>
 
-5.	**Programmierungen zu Single-Team-Modus**
+5.	**Programmierungen zu Single- und Team-Modus:**
 
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/4251e009-e98c-4152-b727-394413969239" width='400'>
@@ -254,20 +254,21 @@ Verwendet man das Projekt im einfachen Single- und Team-Modus, ohne ein Rätsel 
 
 Der hier abgebildete Code ist oben und unten symmetrisch aufgebaut.
 
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6f97b600-ce70-4c96-8dd5-6828b6d0219b" width='400'>| Hier wird geschaut, in welcher Stellung sich die Schiebetüren befinden.  |
+|||
 | ------------------ | ------------------ |
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/9f561f78-7151-41f2-a18c-c1ab68f1dab3" width='400'>| Für den Single-Modus wird nur geschaut, ob einer der Taster an der Außenseite der Holzkiste  gedrückt wurde.  |
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/15851698-c428-4fdc-880e-9d4b7cce8a43" width='400'>| Für den Team-Modus wird geschaut, ob 2 Taster gleichzeitig gedrückt werden.  |
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/6f97b600-ce70-4c96-8dd5-6828b6d0219b" width='400'>| Hier wird geprüft in welcher Stellung sind die Schiebetüren befinden.|
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/9f561f78-7151-41f2-a18c-c1ab68f1dab3" width='400'>| Für den Singlemodus wird nur geprüft, ob einer der Taster an der Außenseite der Holzkiste gedrückt wurde.|
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/15851698-c428-4fdc-880e-9d4b7cce8a43" width='400'>| Für den Teammodus wird überprüft, ob zwei Taster gleichzeitig gedrückt werden.|
 
-Außerdem gibt es eine Abfrage, ob der Schalter für den dafür nötigen Teammodus gedrückt wurde. 
-Die beiden Programmteile oben kommen in ein Oder-Gatter. Dieses Signal geht in ein Und-Gatter, welches den aktuellen Zustand der Türen aufnimmt, um dann die Türen anzusteuern 
+Außerdem gibt es eine Abfrage, ob der Schalter für den dafür nötigen Teammodus gedrückt wurde. Die beiden Programmteile oben kommen in ein ODER-Gatter. Dieses Signal geht in ein UND-Gatter, welches den aktuellen Zustand der Türen aufnimmt, um dann die Türen anzusteuern.
 
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/146e9fd2-9868-4d8e-be94-395d98d30689" width='400'>| Hier wird darauf geachtet, dass kein Rätsel aktiv ist.In den unteren Eingang des UND-Gatters kommen die Signale von dem Kasten oben drüber. Der Ausgang steuert die Türen|
+|||
 | ------------------ | ------------------ |
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/146e9fd2-9868-4d8e-be94-395d98d30689" width='400'>|Hier wird darauf geachtet, dass kein Rätsel aktiv ist. In den unteren Eingang des UND-Gatters kommen die Signale von der Grafik oben drüber. Der Ausgang steuert die Türen.|
 <br>
 <br>
 
-6.	**Programmierungen zu den Rätseln**
+6.	**Programmierungen zu den Rätseln:**
 
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/5e61c569-1cf9-48f0-a5ef-8a20e061c6ec" width='400'>
@@ -281,7 +282,7 @@ Rätsel 1:
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/92c8c171-2570-432b-bbb3-c469b10e8566" width='400'>
 </p>
-In der folgenden Abbildung sieht man den Programmcode für das ersten auswählbare Rätsel. Das hier verwendete UND-Gatter ist dafür verantwortlich das beide Türen zu sind und die Kiste in Ihrer Grundstellung steht. Dieses Signal geht in ein weiteres UND-Gatter, in diesem drauf geachtet wird, dass immer nur der richtige Schalter gedrückt wird. Daraufhin wird das RS-Glied aktiviert. Dieses wird sofort resettet, wenn der gedrückte Taster losgelassen wird. Danach wird geschaut, ob der nächste Taster zusätzlich gedrückt wird und der Taster mindestes eine Sekunde gedrückt wird damit sich alle Türen öffnen.
+In der folgenden Abbildung sieht man den Programmcode für das erste auswählbare Rätsel. Das hier verwendete UND-Gatter ist dafür verantwortlich das beide Türen zu sind und die Kiste in ihrer Grundstellung steht. Dieses Signal geht in ein weiteres UND-Gatter, in diesem drauf geachtet wird, dass immer nur der richtige Schalter gedrückt wird. Daraufhin wird das RS-Glied aktiviert. Dieses wird sofort zurückgesetzt, wenn der gedrückte Taster losgelassen wird. Danach wird geschaut, ob der nächste Taster zusätzlich gedrückt wird und der Taster mindestes eine Sekunde gedrückt wird damit sich alle Türen öffnen.
 <br>
 <br>
 
@@ -290,7 +291,7 @@ Rätsel 2:
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/42f9061e-3eb0-470a-8fd8-974a30493a37" width='400'>
 </p>
-Im zweiten Rätsel wird gezählt, wie oft die beiden äußeren Taster gedrückt werden. Wenn beide Taster mindesten 2-mal gedrückt wurden, geben sie das Signal weiter zum UND-Gatter, welches dann die beiden Schiebetüren öffnet. Danach werden die Zähler wieder resettet, damit das Rätsel für den nächsten Durchgang bereit ist.
+Im zweiten Rätsel wird gezählt, wie oft die beiden äußeren Taster gedrückt werden. Wenn beide Taster mindesten zwei-mal gedrückt wurden, geben sie das Signal weiter zum UND-Gatter, welches dann die beiden Schiebetüren öffnet. Danach werden die Zähler wieder zurückgesetzt, damit das Rätsel für den nächsten Durchgang bereit ist.
 <br>
 <br>
 
@@ -299,7 +300,7 @@ Rätsel 3:
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/92bdfb8c-8a79-4fee-8b57-ff2d5ad9def7" width='400'>
 </p>
-Im dritten Rätsel wird mittels des oben gezeigten Programmcode geschaut, ob die Taster in der richtigen Reihenfolge gedrückt wurden. Realisiert wird der ganze Vorgang durch in Reihe geschaltete RS-Glieder. Erforderlich sind vier Tastendrücke, weshalb vier RS-Glieder benötigt werden. Bei einer Falsch Eingabe werden alle RS-Glieder resettet und die Eingabekombination muss von neuem gestartet werden. Bei richtiger Eingabe öffnen sich die Schiebetüren und das Rätsel resettet, damit es für den nächsten Durchgang bereit ist.
+Im dritten Rätsel wird mittels des oben gezeigten Programmcodes geschaut, ob die Taster in der richtigen Reihenfolge gedrückt wurden. Realisiert wird der ganze Vorgang durch ein in Reihe geschaltetes RS-Glieder. Erforderlich sind vier Tastendrücke, weshalb vier RS-Glieder benötigt werden. Bei einer falsch Eingabe werden alle RS-Glieder zurückgesetzt und die Eingabekombination muss von neuem gestartet werden. Bei richtiger Eingabe öffnen sich die Schiebetüren und das Rätsel wird wieder zurückgesetzt, damit es für den nächsten Durchgang bereit ist.
 <br>
 <br>
 
@@ -308,7 +309,7 @@ Im dritten Rätsel wird mittels des oben gezeigten Programmcode geschaut, ob die
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/82246c2e-a87b-4fbc-aa2f-a39bcde2931b" width='400'>
 </p>
-Damit im Rätsel Modus die Türen wieder von außen schließen kann ist folgender Programmausschnitt verantwortlich. Wenn irgendein Rätsel ausgewählt wurde und irgendein Taster bei offenen Türen gedrückt wird, schließen sich alle Schiebetüren. Somit befindet das ganze Projekt wieder in Ausgangsstellung. Dies kann verwendet werden, um das Rätsel für den nächsten Durchgang vorzubereiten, oder um die Türen für den Transport zu schließen.
+Damit im Rätsel Modus die Türen wieder von außen geschlossen werden können ist folgender Programmausschnitt verantwortlich. Wenn irgendein Rätsel ausgewählt wurde und irgendein Taster bei offenen der Türen gedrückt wird, schließen sich alle Schiebetüren. Somit befindet das ganze Projekt wieder in Ausgangsstellung. Dies kann verwendet werden, um das Rätsel für den nächsten Durchgang vorzubereiten, oder um die Türen für den Transport zu schließen.
 <br>
 <br>
 
@@ -317,18 +318,25 @@ Damit im Rätsel Modus die Türen wieder von außen schließen kann ist folgende
 <p>
     <img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/36a11bc5-d857-4f3d-8312-f546eea7a623" width='400'>
 </p>
-Dieser Programmteil wird in jedem Rätsel verwendet. So wird realisiert, dass die Türen von innen immer geöffnet und geschlossen werden können. Das obere UND-Gatter öffnet die Türen, wenn sie zu sind und das untere UND-Gatte schließt sie, wenn sie offen sind.
+Dieser Programmteil wird in jedem Rätsel verwendet. So wird realisiert, dass die Türen von innen immer geöffnet und geschlossen werden können. Das obere UND-Gatter öffnet die Türen, wenn sie zu sind und das untere UND-Gatter schließt sie, wenn sie offen sind.
 <br>
 <br>
 
-9.	**Lampensteuerung**
+9.	**Lampensteuerung:**
 
 Sobald die Box eingeschaltet wird und die Bauteile Strom bekommen, leuchten die Lampen dauerhaft. Situationsbedingt blinken die Leuchtdrucktaster, um den Nutzern Rückmeldung zu bestimmten Ausführungen zu geben. 
 Die Lampen sollen mit 1Hz blinken, wenn sich die Schiebtüren öffnen oder schließen. 
 Wenn das Rätsel 3 in der falschen Reihenfolge ausgeführt wird und somit ein Fehler entsteht, dann blinken die Lampen für 2 Sekunden schnell mit 5Hz.
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/522c5993-b860-4a16-840c-0385d1ade4fe" width='400'>| Wenn sich die Tür bewegt, schauen wir auf das Signal mit welchen die Tür gesteuert wird. Solange dafür ein Signal da ist, macht der Impulsgeber daraus ein Blinken mit 1Hz. |
+|||
 | ------------------ | ------------------ |
-<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/b211c48c-3748-47e0-aa71-aea405812891" width='400'>|Falls eine falsche Eingabe im dritten Rätsel getätigt wurde, wird das Resett Signal auch an diesen Programmausschnitt weitergeleitet. Dieser aktiviert das RS-Glied, wodurch ein Impulsgeber mit 5Hz aktiviert wird. Dieser funktioniert solange das RS-Glied aktiv ist. Abgeschaltet wird das RS-Glied wenn die Einschaltverzögerung, welche auf 2 Sekunden eingestellt ist, aktiviert wird.|
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/522c5993-b860-4a16-840c-0385d1ade4fe" width='1200'>| Wenn sich die Türen bewegen, dann wird auf das Signal geschaut, mit welchen die Türen gesteuert werden sollen. Solange ein Signal anliegt, gibt der Impulsgeber immer ein Blinken mit 1Hz aus. |
+<img src="https://github.com/DavidKrog/RobotsUnite-Tunnel/assets/132545762/b211c48c-3748-47e0-aa71-aea405812891" width='1200'>|Falls eine falsche Eingabe im dritten Rätsel getätigt wurde, wird das zurückgesetzte Signal auch an diesen Programmausschnitt weitergeleitet. Dieser aktiviert das RS-Glied, wodurch ein Impulsgeber mit 5Hz aktiviert wird. Dieser funktioniert solange das RS-Glied aktiv ist. Abgeschaltet wird das RS-Glied wenn die Einschaltverzögerung, welche auf 2 Sekunden eingestellt ist, aktiviert wird.|
+<br>
+<br>
 
+10. **Upload Siemens LOGO:**
+
+Um die Software auf die Siemens LOGO zu installieren, gibt es zwei Möglichkeiten. Die erste wäre mit Hilfe der Siemens LOGOSoft Comfort, welche benötigt wird, um das Programm zu erstellen. Damit kann man die geschriebene Software auf die Siemens LOGO installieren. Dieser Weg muss gegangen werden, wenn das Programm neu erstellt oder verändert wurde. Dabei ist aber eine Lizenz für das Software notwendig, welche vorab gekauft werden muss.
+Hatte man das Programm schon einmal auf der Siemens LOGO installiert, kann man die Software auf der LOGO direkt auf eine SD-Karte schreiben lassen. Dies wird in der Menüführung direkt auf der Siemens LOGO erklärt wie der Download und Upload funktioniert. Dadurch kann man die Software auf eine neue LOGO installieren, ohne das ein Rechner notwendig ist. So können auch vorhandene LOGO Programme geladen werden ohne eine Lizenz zu besitzen. Über diesen Weg sind aber keine Veränderungen am Programm möglich!
 
 
